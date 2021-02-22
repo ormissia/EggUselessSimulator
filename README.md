@@ -1,8 +1,9 @@
-# 没什么卵用模拟器
+# 没什么卵用模拟器🤡🤡🤡
 
-![Project Label](https://badgen.net/badge/github/GoLang/blue?label=Egg%20Useless%20Simulator)
-[![Go Report Card](https://goreportcard.com/badge/github.com/ormissia/go-gin-blog)](https://goreportcard.com/report/github.com/ormissia/go-gin-blog)
-[![TODOs](https://badgen.net/https/api.tickgit.com/badgen/github.com/ormissia/go-gin-blog)](https://www.tickgit.com/browse?repo=github.com/ormissia/go-gin-blog)
+[![Project Label](https://badgen.net/badge/github/GoLang/blue?label=Egg%20Useless%20Simulator)](https://github.com/ormissia/EggUselessSimulator)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ormissia/EggUselessSimulator)](https://goreportcard.com/report/github.com/ormissia/EggUselessSimulator)
+[![TODOs](https://badgen.net/https/api.tickgit.com/badgen/github.com/ormissia/EggUselessSimulator)](https://www.tickgit.com/browse?repo=github.com/ormissia/EggUselessSimulator)
+[![licenses MIT](https://badgen.net/badge/license/MIT/#3DA639)](https://opensource.org/licenses/MIT)
 
 > 用代码模拟一下水浒梁山内讧
 
