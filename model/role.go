@@ -1,7 +1,7 @@
 // @File: model
 // @Date: 2021/2/22
 // @Author: 安红豆
-// @Description: 
+// @Description: 角色实体
 
 package model
 
