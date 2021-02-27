@@ -19,6 +19,7 @@ func main() {
 
 	//初始化角色数据
 	common.InitRoles()
+	common.InitEquipments()
 	//开始战斗
 	handler.StartFight()
 
