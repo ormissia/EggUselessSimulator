@@ -9,6 +9,7 @@ import (
 	"EggUselessSimulator/common"
 	"EggUselessSimulator/model"
 	"EggUselessSimulator/utils"
+	"fmt"
 )
 
 var (
@@ -38,12 +39,23 @@ func StartFight() {
 		//计算被攻击角色剩余血量
 		role2.BloodValue = role2.BloodValue - realDamage
 
-		//TODO 根据攻击者输出和被攻击者受到的伤害分情况输出战斗信息
-
+		//攻击招式
+		a := "拳头"
+		if role1.AttackEquipment.AttackValue != 0 {
+			a = role1.AttackEquipment.Name
+		}
+		//受伤程度
+		b := "打的摇摇晃晃"
 		//当被攻击者血量小于等于0时，将其移出map
 		if role2.BloodValue <= 0 {
 			delete(aliveRoles, role2.Name)
+			b = "打翻在地"
 		}
+
+		//根据攻击者输出和被攻击者受到的伤害分情况输出战斗信息
+		fmt.Printf("%s 使出 %s ，造成了 %d 点伤害，把 %s %s\n", role1.Name, a, damage, role2.Name, b)
 	}
+
+	fmt.Printf("最终，%s 获胜", aliveRoles[utils.RandRoleName(aliveRoles)].Name)
 
 }
